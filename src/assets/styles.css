@@ -1,0 +1,59 @@
+.table-responsive {
+  overflow: auto;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #fafafa;
+  font-weight: bold;
+}
+
+.ant-table-tbody > tr > td {
+  padding: 16px;
+}
+
+.ant-table-row:hover {
+  background-color: #f5f5f5;
+}
+
+.ant-upload-list-item {
+  display: none;
+}
+
+.upload-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+/* custom.css */
+.sider-primary {
+  background: #fff !important;
+}
+
+.ant-layout-sider-primary {
+  position: fixed;
+  height: 100vh;
+  left: 0;
+}
+
+.ant-layout-content {
+  margin-left: 250px; /* Phù hợp với chiều rộng của Sider */
+}
+
+.ant-layout-header {
+  position: fixed;
+  width: calc(100% - 250px); /* Trừ đi chiều rộng của Sider */
+  left: 250px; /* Đặt Header ngang bằng với Content */
+  z-index: 1;
+}
